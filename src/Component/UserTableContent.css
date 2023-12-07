@@ -1,0 +1,95 @@
+.SearchBar {
+    background: #FFFFFF;
+    border: 1px solid rgba(146, 161, 173, 0.4);
+    border-radius: 6px;
+    width: 277px;
+    height: 36px;
+  }
+  
+  .TopContainer {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .SearchContainer {
+    display: flex;
+  }
+  
+  .TicketButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 10px;
+    width: 100px;
+    height: 35px;
+    background: #8a74f9;
+    border-radius: 6px;
+    border: none;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fcfcfc;
+  }
+  
+  .FilterIcon {
+    background: #ffffff;
+    border: 1px solid rgba(146, 161, 173, 0.4);
+    border-radius: 6px;
+    width: 36px;
+    height: 36px;
+  }
+  
+  .tableContent {
+    font-size: 13.28px;
+    color: #1c1c28;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    border-radius: 6px;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 8px;
+    margin-bottom: 5px;
+    align-items: center;
+  }
+  
+  .userNameContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .NameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .phoneNumber {
+    font-size: 10px;
+    color: #92a1ad;
+  }
+  
+  .ticketContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .pdfDetails {
+    color: #92a1ad;
+  }
+  
+  .ticketName {
+    margin-left: 22px;
+    margin-right: 10px;
+  }
+  
+  @media screen and (max-width: 425px) {
+    .SearchBar {
+      border-radius: 6px;
+      width: 100px;
+      height: 40px;
+    }
+  }
+  
+ 
